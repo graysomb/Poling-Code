@@ -18,8 +18,10 @@ def duty(x, Lcryst, cheiff, absDmax):
 if __name__ == "__main__":
     # This code calculates the phase matching function for a periodicaly poled KTP and a gaussian pump
     #currently it is for a .6 nm bandwidth gaussian pump at 775 nm undergoing degenerate SPDC.
-    # The code generates a crystal using an analytic function, then calculates the widths for each
+    # a crystal is generated using an analytic function, then calculates the widths for each
     #poling region. Finally the FFT is taken to determine the phase matching function.
+
+    #matches SPDcalc schmidt number when mind=0;
 
     # Define units
     mm = 1e-3
